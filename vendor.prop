@@ -1,3 +1,11 @@
+# ART
+dalvik.vm.dex2oat-filter=speed 
+dalvik.vm.image-dex2oat-filter=speed 
+ro.vendor.qti.am.reschedule_service=true 
+ro.sys.fw.dex2oat_thread_count=8 
+dalvik.vm.boot-dex2oat-threads=8
+dalvik.vm.dex2oat-threads=8
+
 ro.boot.dynamic_partitions=true
 ro.product.first_api_level=30
 ro.vendor.product.cpu.abilist=arm64-v8a,armeabi-v7a,armeabi
