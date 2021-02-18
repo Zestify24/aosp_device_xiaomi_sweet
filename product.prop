@@ -32,3 +32,7 @@ debug.sf.early.sf.duration=16600000
 debug.sf.early.app.duration=16600000 
 debug.sf.earlyGl.sf.duration=16600000
 debug.sf.earlyGl.app.duration=16600000
+
+#LMKD
+ro.config.low_ram=false
+ro.lmk.log_stats=true
