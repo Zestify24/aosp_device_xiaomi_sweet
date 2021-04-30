@@ -14,6 +14,7 @@ renderthread.skia.reduceopstasksplitting=true
 
 # Graphics
 debug.sf.enable_gl_backpressure=1
+debug.sf.enable_hwc_vds=1
 
 # Graphics
 debug.cpurend.vsync=false
