@@ -17,6 +17,7 @@ debug.sf.enable_gl_backpressure=1
 
 # Graphics
 debug.cpurend.vsync=false
+vendor.display.disable_rotator_downscale=1
 
 # Transcoding related property.
 debug.media.transcoding.codec_max_operating_rate_720P=240
