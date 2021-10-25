@@ -39,3 +39,6 @@ ro.lmk.log_stats=true
 
 # App
 persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
+
+# Perfetto
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
