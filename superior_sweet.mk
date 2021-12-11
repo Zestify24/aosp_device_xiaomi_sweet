@@ -8,6 +8,8 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit common SuperiorOS configurations
 $(call inherit-product, vendor/superior/config/common.mk)
 
+SUPERIOR_BUILD_TYPE :=  OFFICIAL
+
 PRODUCT_NAME := superior_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
