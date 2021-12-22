@@ -35,6 +35,10 @@ BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom \
                         service_locator.enable=1 \
                         swiotlb=1 \
                         androidboot.usbcontroller=a600000.dwc3 \
+                        swiotlb=2048 \
+                        loop.max_part=7 \
+                        cgroup.memory=nokmem,nosocket \
+                        reboot=panic_warm \
                         kpti=off
 
 BOARD_KERNEL_BASE        := 0x00000000
