@@ -21,3 +21,12 @@ debug.cpurend.vsync=false
 # Transcoding related property.
 debug.media.transcoding.codec_max_operating_rate_720P=240
 debug.media.transcoding.codec_max_operating_rate_1080P=120
+
+# Phase Gffset
+debug.sf.use_phase_offsets_as_durations=1 
+debug.sf.late.sf.duration=10500000 
+debug.sf.late.app.duration=16600000 
+debug.sf.early.sf.duration=16600000 
+debug.sf.early.app.duration=16600000 
+debug.sf.earlyGl.sf.duration=16600000
+debug.sf.earlyGl.app.duration=16600000
