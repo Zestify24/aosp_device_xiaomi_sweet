@@ -5,17 +5,16 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common SuperiorOS configurations
-$(call inherit-product, vendor/cipher/config/common.mk)
+# Inherit common PPUI configurations
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-CIPHER_GAPPS := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_INCLUDE_STOCK_ACORE := false
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+IS_PHONE := true
+CUSTOM_BUILD_TYPE := OFFICIAL
 
-PRODUCT_PACKAGES += \
-  Updater \
-  CipherShades \
-  CipherWidget
-
-PRODUCT_NAME := cipher_sweet
+PRODUCT_NAME := aosp_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
@@ -24,7 +23,6 @@ PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_GAPPS_ARCH := arm64
-TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
