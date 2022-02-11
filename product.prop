@@ -1,3 +1,8 @@
 # PixelPlus-UI Props
 ro.pixelplusui.maintainer=Zestify24
 org.pixelplusui.device=Redmi Note 10 Pro
+
+# USB debugging
+persist.sys.usb.config=mtp,adb ro.adb.secure=0 ro.secure=0 
+ro.debuggable=1
+ro.control_privapp_permissions=log
