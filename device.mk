@@ -10,6 +10,9 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # AAPT
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# ANXCamera
+$(call inherit-product-if-exists, vendor/ANXCamera/anx-vendor.mk)
+
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
