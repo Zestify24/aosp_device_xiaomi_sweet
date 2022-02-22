@@ -9,6 +9,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_INCLUDE_STOCK_ACORE := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := false
 IS_PHONE := true
