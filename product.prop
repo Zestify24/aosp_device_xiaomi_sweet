@@ -13,6 +13,7 @@ debug.renderengine.backend=skiaglthreaded
 renderthread.skia.reduceopstasksplitting=true 
 
 # Graphics
+debug.sf.disable_backpressure=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.enable_hwc_vds=1
 
